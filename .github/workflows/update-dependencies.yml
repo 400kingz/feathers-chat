@@ -16,7 +16,7 @@ jobs:
     - run: npm ci
     - run: |
         git config user.name "GitHub Actions Bot"
-        git config user.email "hello@feathersjs.com"
+        git config user.email "flurpro@gmail.com"
         git checkout -b update-dependencies-$GITHUB_RUN_ID
     - run: |
         npm run update-dependencies
